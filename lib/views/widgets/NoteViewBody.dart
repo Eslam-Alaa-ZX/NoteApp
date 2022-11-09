@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task2/views/widgets/AppBar.dart';
+import 'package:flutter_task2/views/widgets/Card.dart';
 
 class NoteViewBody extends StatelessWidget {
   const NoteViewBody({Key? key}) : super(key: key);
@@ -14,7 +15,7 @@ class NoteViewBody extends StatelessWidget {
             height: 50,
           ),
           CAppBar(),
-
+          CCard(),
         ],
       ),
     );
