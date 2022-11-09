@@ -8,9 +8,12 @@ class CAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: const [
-        Text("Notes",style: TextStyle(
-          fontSize: 28,
-        ),),
+        Text(
+          "Notes",
+          style: TextStyle(
+            fontSize: 28,
+          ),
+        ),
         Spacer(),
         CSearchIcon(),
       ],
